@@ -6874,7 +6874,7 @@ client.on('message', msg => {
  client.on("message", message => {
              var prefix = "$";
               if (message.content.startsWith(prefix + "colors")) {
-    var rand2 = Math.round(Math.random()*1)
+    var rand2 = Math.round(Math.random()*0)
     switch (rand2) {
 
         case 0: rand2=("https://f.top4top.net/p_993zfvyb1.png");    ///تقدر تغير روابط الصور
