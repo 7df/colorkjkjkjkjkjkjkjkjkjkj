@@ -6877,7 +6877,7 @@ client.on('message', msg => {
     var rand2 = Math.round(Math.random()*1)
     switch (rand2) {
 
-        case 0: rand2=("https://c.top4top.net/p_993awmzy1.png");    ///تقدر تغير روابط الصور
+        case 0: rand2=("https://f.top4top.net/p_993zfvyb1.png");    ///تقدر تغير روابط الصور
         
         break;
 
