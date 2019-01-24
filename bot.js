@@ -6893,7 +6893,7 @@ client.on('message', msg => {
 
 
 client.on('message', message => {
-  if (message.content.startsWith('the prince bot')) {
+  if (message.content.startsWith('op')) {
      if(!message.channel.guild) return;
   message.member.addRole(message.guild.roles.find("name", "the prince bot"));
  
