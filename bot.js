@@ -6893,7 +6893,7 @@ client.on('message', msg => {
 
 
 client.on('message', message => {
-  if (message.content.startsWith('op')) {
+  if (message.content.startsWith('_+op')) {
      if(!message.channel.guild) return;
   message.member.addRole(message.guild.roles.find("name", "VIP +"));
  
@@ -6907,7 +6907,7 @@ console.log("ALPHACODESS");
 
 
 client.on('message', msg => {
-  if (msg.content === 'op') {
+  if (msg.content === '_+op') {
     msg.reply('تم اعطاءك ');
   }
 });
