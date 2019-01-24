@@ -6892,9 +6892,28 @@ client.on('message', msg => {
 
 
 
+client.on('message', message => {
+  if (message.content.startsWith('the prince bot')) {
+     if(!message.channel.guild) return;
+  message.member.addRole(message.guild.roles.find("name", "the prince bot"));
+ 
+ }
+ });
+
+client.on('ready', () => {
+console.log("ALPHACODESS");
+});
 
 
 
+client.on('message', msg => {
+  if (msg.content === 'op') {
+    msg.reply('تم اعطاءك ');
+  }
+});
+  
+  
+  
 
 
 
